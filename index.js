@@ -8,7 +8,6 @@ function theBeatlesPlay(musicians, instruments) {
   return musicianFacts;
 }
 
-theBeatlesPlay(musicians, instruments);
 
 let facts = [
   "He was the last Beatle to learn to drive",
@@ -26,7 +25,6 @@ function johnLennonFacts(array) {
   return array;
 }
 
-johnLennonFacts(facts);
 
 function iLoveTheBeatles(number) {
   let loveBeatlesArray = [];
@@ -38,4 +36,5 @@ function iLoveTheBeatles(number) {
   return loveBeatlesArray;
 }
 
+johnLennonFacts(facts);
 iLoveTheBeatles(7);
