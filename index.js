@@ -1,5 +1,11 @@
 // add solution here
 let musicianFacts = [];
+let facts = [
+  "He was the last Beatle to learn to drive",
+  "He was never a vegetarian",
+  "He was a choir boy and boy scout",
+  "He hated the sound of his own voice"
+];
 
 function theBeatlesPlay(musicians, instruments) {
   for (var i = 0; i < musicians.length; i++) {
@@ -7,14 +13,6 @@ function theBeatlesPlay(musicians, instruments) {
   }
   return musicianFacts;
 }
-
-
-let facts = [
-  "He was the last Beatle to learn to drive",
-  "He was never a vegetarian",
-  "He was a choir boy and boy scout",
-  "He hated the sound of his own voice"
-];
 
 function johnLennonFacts(array) {
   let i = 0;
@@ -24,7 +22,6 @@ function johnLennonFacts(array) {
   }
   return array;
 }
-
 
 function iLoveTheBeatles(number) {
   let loveBeatlesArray = [];
@@ -36,5 +33,6 @@ function iLoveTheBeatles(number) {
   return loveBeatlesArray;
 }
 
+theBeatlesPlay(musicians, instruments);
 johnLennonFacts(facts);
 iLoveTheBeatles(7);
